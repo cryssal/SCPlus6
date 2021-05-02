@@ -9,68 +9,10 @@
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/02643eb7b6.js" crossorigin="anonymous"></script>
-<script src="src/index.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
-<style>
-    h1 {
-        font-weight: bold;
-        color: #435560;
-        padding: 4px;
-    }
-
-    h2 {
-        color: #28527a;
-        font-size: 1rem;
-        margin: 1px;
-    }
-
-    h3 {
-        font-size: 100px;
-    }
-
-    form {
-        font-size: 1.3rem;
-    }
-
-    h1 i {
-        color: #f4d160
-    }
-
-    h3 i {
-        color: #28527a;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    .boxed {
-        display: block;
-        border: solid #f4d160;
-        padding: 20px;
-        margin: auto;
-        background-color: whitesmoke;
-        width: 370px;
-
-    }
-
-    .btn-info {
-        padding: 3px;
-        position: relative;
-        bottom: 2px;
-    }
-
-    .unit {
-        font-size: 20px;
-    }
-
-    .cityID {
-        font-size: 1.7rem;
-        margin: 8px 0px 2px 0px;
-    }
-</style>
 
 <body>
     <div class="container">
@@ -81,7 +23,7 @@
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-5">
                         <h2><strong>
                                 <div class="cityID"> </div>
                             </strong></h2>
@@ -91,8 +33,13 @@
                         <h2><span class="windID"> </span></h2>
                         <h2><span class="climateID"> </span></h2>
                     </div>
-                    <div class="col-6">
-                        <h3><span class="tempID"> </span><span style="font-size: 0.5em"><sup>°C</sup></span></br>
+                    <div class="col-7">
+                        <div class="clearfix">
+                        <h3><img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                            alt="partlycloudy"
+                            class="float-left">
+                            <span class="tempID">    </span><span style="font-size: 0.5em"><sup>°C</sup></span></br>
+                    </div>
                     </div>
                 </div>
         </div>

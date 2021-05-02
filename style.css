@@ -1,0 +1,59 @@
+h1 {
+  font-weight: bold;
+  color: #435560;
+  padding: 4px;
+}
+
+h2 {
+  color: #28527a;
+  font-size: 1rem;
+  margin: 1px;
+}
+
+h3 {
+  font-size: 100px;
+}
+
+form {
+  font-size: 1.3rem;
+}
+
+h1 i {
+  color: #f4d160;
+}
+
+h3 i {
+  color: #28527a;
+}
+
+p {
+  text-align: center;
+}
+
+.boxed {
+  display: block;
+  border: solid #f4d160;
+  padding: 20px;
+  margin: auto;
+  background-color: whitesmoke;
+  width: 420px;
+}
+
+.btn-info {
+  padding: 3px;
+  position: relative;
+  bottom: 2px;
+}
+
+.unit {
+  font-size: 20px;
+}
+
+.cityID {
+  font-size: 1.7rem;
+  margin: 8px 0px 2px 0px;
+}
+
+.tempID {
+  font-size: 4rem;
+}
